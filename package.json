@@ -1,23 +1,18 @@
 {
-  "name": "stumble-guys-backend",
+  "name": "stumble-backend",
   "version": "1.0.0",
-  "description": "Servidor backend e API para Stumble Guys",
+  "description": "Backend server para Stumble Guys",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "jsonwebtoken": "^9.0.2",
-    "mongodb": "^6.13.0"
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
   },
   "devDependencies": {
-    "nodemon": "^3.1.9"
+    "nodemon": "^3.1.0"
   },
   "engines": {
     "node": ">=18.0.0"
